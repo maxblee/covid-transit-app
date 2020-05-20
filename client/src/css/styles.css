@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Italic-VariableFont_wght.ttf") format("truetype");
+  font-style: italic;
+}
+html,
+body {
+  padding: 0.5em;
+}
+
+html,
+body {
+  background-color: #dfe2eb;
+  color: #2c2d30;
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+  font-variation-settings: "wght" 400;
+  box-sizing: border-box;
+}
+html *,
+body * {
+  box-sizing: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+body {
+    background-color: #2c2d30;
+    color: #dfe2eb;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: auto;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-variation-settings: "wght" 150;
+}
+
+h1 {
+  font-size: 4.35rem;
+  line-height: 5.2rem;
+}
+
+svg {
+  width: 100%;
+  height: 500px;
+}
+
+#simulation_graphiccircle {
+  fill: #2c2d30;
+}
+
+.selection__wrapper {
+  display: block;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.selection__wrapper > label {
+  display: block;
+}
+.selection__wrapper > select {
+  max-width: 100%;
+  white-space: pre-wrap;
+}
+
+article {
+  text-align: center;
+}
+
+.byline-container {
+  font-size: 2rem;
+}
+
+.byline__author {
+  display: inline-block;
+}
+
+.byline__author__separator::after {
+  content: " ";
+}
+
+.article__timestamp {
+  font-size: 1.75rem;
+  font-variation-settings: "wght" 250;
+}
+
+.article__graf {
+  font-size: 1.6rem;
+}
+
+.article__graf__lead {
+  font-size: 1.85rem;
+  font-variation-settings: "wght" 600;
+}
+
+/*# sourceMappingURL=styles.css.map */

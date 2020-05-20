@@ -1,0 +1,32 @@
+html,
+body {
+    background-color: $off-white;
+    color: $near-black;
+    font-family: "Jost", Arial, Helvetica, sans-serif;
+    font-variation-settings:  $wght-normal;
+    box-sizing: border-box;
+
+    * {
+        box-sizing: inherit;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html,
+    body {
+        background-color: $near-black;
+        color: $off-white;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: auto;
+    margin-bottom: $default-padding;
+    text-align: center;
+    font-variation-settings: $wght-thin;
+}
+
+h1 {
+    font-size: 4.35rem;
+    line-height: 5.2rem;
+}

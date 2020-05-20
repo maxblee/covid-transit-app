@@ -1,0 +1,26 @@
+svg {
+    width: 100%;
+    height: 500px;
+}
+
+#simulation_graphic {
+    &circle {
+        fill: $near-black;
+    }
+}
+
+.selection__wrapper {
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+
+    > label {
+        display: block;
+    }
+
+    > select {
+        max-width: 100%;
+        white-space: pre-wrap;
+    }
+}

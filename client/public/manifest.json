@@ -1,0 +1,10 @@
+{
+  "short_name": "COVID Transit access",
+  "name": "An app mapping transportation access in the age of COVID-19 in San Francisco.",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

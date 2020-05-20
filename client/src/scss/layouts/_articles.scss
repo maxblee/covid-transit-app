@@ -1,0 +1,31 @@
+article {
+    text-align: center;
+}
+
+.byline-container {
+    font-size: 2rem;
+}
+
+.byline__author {
+    display: inline-block;
+}
+
+.byline__author__separator {
+    &::after {
+        content: "\a0";
+    }
+}
+
+.article__timestamp {
+    font-size: 1.75rem;
+    font-variation-settings: $wght-med;
+}
+
+.article__graf {
+    font-size: 1.6rem;
+}
+
+.article__graf__lead {
+    font-size: 1.85rem;
+    font-variation-settings: $wght-bold;
+}

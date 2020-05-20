@@ -1,0 +1,52 @@
+{
+  "name": "covid-api",
+  "version": "0.1.0",
+  "description": "An API for measuring transportation access during our COVID era, starting with San Francisco.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxblee/covid-transit-api.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "covid"
+  ],
+  "author": "Max Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxblee/covid-transit-api/issues"
+  },
+  "homepage": "https://github.com/maxblee/covid-transit-api#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.0",
+    "knex-postgis": "^0.11.0",
+    "moment": "^2.24.0",
+    "papaparse": "^5.2.0",
+    "pg": "^8.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.19.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mocha": "^7.1.2",
+    "prettier": "2.0.5",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
